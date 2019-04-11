@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxlistview2.FXMLDocumentController">
+    <children>
+      <HBox prefHeight="200.0" prefWidth="105.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="215.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ListView fx:id="listview2" prefHeight="200.0" prefWidth="200.0" />
+            <ListView fx:id="listview1" prefHeight="200.0" prefWidth="200.0" />
+         </children>
+      </HBox>
+      <TextField fx:id="additem" layoutX="105.0" layoutY="174.0" />
+    </children>
+</AnchorPane>
